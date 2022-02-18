@@ -1,0 +1,73 @@
+.all,
+form {
+  text-align: center;
+  padding-top: 50px;
+  line-height: 30px;
+}
+input {
+  width: 80%;
+}
+button {
+  position: relative;
+  bottom: 2px;
+}
+h1,
+h2 {
+  text-align: left;
+  position: relative;
+  left: 100px;
+}
+h1 {
+  padding-top: 150px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: regular 400;
+}
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: light 300;
+}
+h3 {
+  text-align: right;
+  position: relative;
+  bottom: 85px;
+  right: 100px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: regular 400;
+}
+body {
+  background-image: url("https://images.pexels.com/photos/76969/cold-front-warm-front-hurricane-felix-76969.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+}
+.sunny {
+  color: #ffca2b;
+  font-size: 100px;
+}
+.less-sun {
+  color: #c9e2fc;
+  font-size: 50px;
+}
+.cloudy {
+  color: #3c6390;
+  font-size: 50px;
+}
+.rainy {
+  color: #4d4d4d;
+  font-size: 50px;
+}
+.bolty {
+  color: #dba606;
+  font-size: 50px;
+}
+.snowy {
+  color: #cdd1d8;
+  font-size: 50px;
+}
+.first-day {
+  position: relative;
+  left: 5px;
+}
+.day {
+  position: relative;
+  top: 24px;
+  right: 5px;
+}
