@@ -71,3 +71,9 @@ body {
   top: 24px;
   right: 5px;
 }
+#linkrep {
+  color: #fff;
+  position: relative;
+  top: 50px;
+  left: 600px;
+}
