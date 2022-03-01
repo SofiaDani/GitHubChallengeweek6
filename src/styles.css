@@ -58,30 +58,7 @@ body {
 #fahrenheit-link {
   color: #3c638f;
 }
-.sunny {
-  color: #ffca2b;
-  font-size: 100px;
-}
-.less-sun {
-  color: #c9e2fc;
-  font-size: 50px;
-}
-.cloudy {
-  color: #3c6390;
-  font-size: 50px;
-}
-.rainy {
-  color: #4d4d4d;
-  font-size: 50px;
-}
-.bolty {
-  color: #dba606;
-  font-size: 50px;
-}
-.snowy {
-  color: #cdd1d8;
-  font-size: 50px;
-}
+
 .first-day {
   position: relative;
   left: 5px;

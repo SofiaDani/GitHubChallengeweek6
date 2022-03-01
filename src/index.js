@@ -59,10 +59,10 @@ function temperatureToday(response) {
     response.data.main.temp
   );
   iconElement.setAttribute(
+    "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
-  document.querySelector("iconElement").innerHTML =
-    response.data.weather[0].icon;
+  iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 function searching(event) {
   event.preventDefault();
