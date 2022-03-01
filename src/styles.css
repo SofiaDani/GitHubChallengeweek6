@@ -72,8 +72,21 @@ body {
   right: 5px;
 }
 #linkrep {
-  color: #fff;
+  color: #3c638f;
   position: relative;
   top: 50px;
-  left: 600px;
+  left: 550px;
+  margin: 0 auto;
+  padding: 4px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.container {
+  background-color: #bedcf7;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
 }
