@@ -45,10 +45,24 @@ if (minutes < 10) {
   h3.innerHTML = `${hours}:${minutes}`;
 }
 function temperatureToday(response) {
+  let iconElement = document.querySelector("#icon");
   document.querySelector("h2").innerHTML = response.data.name;
+  document.querySelector(".description").innerHTML =
+    response.data.weather[0].description;
+  document.querySelector(
+    "#humidity"
+  ).innerHTML = `Humidity: ${response.data.main.humidity}%`;
+  document.querySelector(
+    "#wind"
+  ).innerHTML = `Wind Speed: ${response.data.wind.speed}Km/h`;
   document.querySelector("#temp").innerHTML = Math.round(
     response.data.main.temp
   );
+  iconElement.setAttribute(
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  document.querySelector("iconElement").innerHTML =
+    response.data.weather[0].icon;
 }
 function searching(event) {
   event.preventDefault();
