@@ -42,7 +42,9 @@ body {
 #fahrenheit-link {
   color: #3c638f;
 }
-
+#center-link {
+  text-align: center;
+}
 #linkrep {
   color: #3c638f;
   margin: 0 auto;
@@ -51,7 +53,7 @@ body {
   border-radius: 10px;
   background-color: #fff;
 }
-.container {
+#weatherMain {
   max-width: 800px;
 }
 
