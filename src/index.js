@@ -44,6 +44,34 @@ if (minutes < 10) {
 } else {
   h3.innerHTML = `${hours}:${minutes}`;
 }
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let daysForecast = ["Mon", "Thu", "Wed"];
+  daysForecast.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+<div class = "container">
+  <div class = "container-row-cols-md-3">
+   <div class="card day">
+    <div class="card-body">
+      <h5 class="card-title">THU</h5>
+      <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="" width="42>
+        <span class="card-text">14ºC</span>
+        <span class="minimum-temp"> 12ºC</span>
+     </div>
+    </div>
+  </div>
+</div>
+
+  `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
 function temperatureToday(response) {
   let iconElement = document.querySelector("#icon");
   document.querySelector("h2").innerHTML = response.data.name;
@@ -91,3 +119,5 @@ function fahrenheitToCelsius(event) {
 }
 let changeToCelsius = document.querySelector("#celsius-link");
 changeToCelsius.addEventListener("click", fahrenheitToCelsius);
+
+displayForecast();
