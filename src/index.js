@@ -121,21 +121,3 @@ function searching(event) {
 }
 let form = document.querySelector("#search-button");
 form.addEventListener("click", searching);
-
-function celsiusToFahrenheit(event) {
-  event.preventDefault();
-  let temperature = document.querySelector("#temp");
-  let temperaturee = temperature.innerHTML;
-  temperature.innerHTML = Math.round(temperaturee * (9 / 5) + 32);
-}
-let changeToFahrenheit = document.querySelector("#fahrenheit-link");
-changeToFahrenheit.addEventListener("click", celsiusToFahrenheit);
-
-function fahrenheitToCelsius(event) {
-  event.preventDefault();
-  let temperatureF = document.querySelector("#temp");
-  let temperatureeF = temperatureF.innerHTML;
-  temperatureF.innerHTML = Math.round(temperatureeF / (9 * 5) - 32);
-}
-let changeToCelsius = document.querySelector("#celsius-link");
-changeToCelsius.addEventListener("click", fahrenheitToCelsius);
