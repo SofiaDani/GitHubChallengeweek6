@@ -19,6 +19,7 @@ h1 {
 h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 300;
+  text-align: center;
 }
 h3 {
   color: #509ded;
@@ -29,6 +30,13 @@ h4 {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 300;
   text-transform: capitalize;
+  text-align: center;
+}
+h5 {
+  color: #509ded;
+}
+img {
+  max-width: 100px;
 }
 body {
   background-image: url("https://crawfordcountynow.sagacom.com/files/2021/04/shutterstock_169613126.jpg");
