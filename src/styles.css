@@ -66,7 +66,10 @@ body {
 #weatherMain {
   max-width: 800px;
 }
-
+#color-temp {
+  color: #3c638f;
+  font-size: smaller;
+}
 .weatherApp {
   background-color: #bedcf7;
   padding: 20px;
@@ -74,7 +77,7 @@ body {
   border-radius: 10px;
   margin: 30px auto;
 }
-.card-text {
+.maximum-temp {
   color: #3c638f;
   font-size: smaller;
 }
