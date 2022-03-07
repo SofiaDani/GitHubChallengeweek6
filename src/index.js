@@ -63,7 +63,7 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         `
-<div class = "container">
+<div class="col-2">
   <div class = "container-row-cols-md-3">
    <div class="card day">
     <div class="card-body">
